@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game by EugeneTsalko</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon/favicon.ico">
+</head>
+<body>
+    <header class="header">
+        <h1>Tic-Tac-Toe</h1>
+    </header>
+    <div class="area-wrapper">
+        <div id="area">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+    <div class="interface-wrapper">
+        <button id="restart">restart game</button>
+        <div class="score">
+            <h5>score</h5>
+            <div class="score-table">
+               <div id="xWin">X win: 0</div>
+               <div id="draw">draw: 0</div>
+               <div id="oWin">0 win: 0</div>
+            </div>
+        </div>
+        <button id="records">records</button>
+    </div>
+    <div id="modal-result-wrapper">
+        <div id="overlay"></div>
+        <div id="modal-window">
+            <div id="content">content</div>
+            <div id="btn-close">start new game</div>
+        </div>
+    </div>
+    <div id="records-wrapper">
+        <div id="records-overlay"></div>
+        <div id="records-modal-window">
+            <div id="records-content">
+                content
+            </div>
+            <div id="records-close">close records</div>
+        </div>
+        
+
+    </div>
+    <footer class="footer">
+        <span class="footer-item">2022</span>
+        <div class="footer-item"><a class="footer-link" href="https://rs.school/js-stage0/">rolling scopes school</a></div>
+        <div class="footer-item"><a class="footer-link" href="https://github.com/EugeneTsalko">github</a></div>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
